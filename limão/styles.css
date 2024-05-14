@@ -1,0 +1,44 @@
+       body {
+            background-image: url(/limão/imagem/1100877965-beneficios-do-limao-1.webp);
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #ffffff;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        p {
+            font-size: 24px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        .button {
+            padding: 15px 30px;
+            background-color: #ffffff;
+            color: #106623;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .button:hover {
+            background-color: #009900;
+        }
